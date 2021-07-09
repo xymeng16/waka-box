@@ -10,7 +10,7 @@ jobs:
       - name: Update gist
         uses: matchai/waka-box@master
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: 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
           GIST_ID: 45b5dea76c9faa39d6a3e449cf06634d
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          WAKATIME_API_KEY: 4536999-3a74-429c-82a2-2a18c0b22c51
 # How to trigger this action?
