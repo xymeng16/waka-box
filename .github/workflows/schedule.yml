@@ -2,6 +2,7 @@ name: Update gist with WakaTime stats
 on:
   schedule:
     - cron: "0 * * * *"
+  workflow_dispatch:
 jobs:
   update-gist:
     runs-on: ubuntu-latest
@@ -14,3 +15,4 @@ jobs:
           GIST_ID: 45b5dea76c9faa39d6a3e449cf06634d
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
 # How to trigger this action?
+  # Manual triggers with workflow_dispatch
